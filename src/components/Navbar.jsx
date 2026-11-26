@@ -14,8 +14,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container nav-inner">
         <Link to="/" className="brand">
-          <span className="brand-mark">AI</span>
-          <span className="brand-text">Interview Generator</span>
+          <span className="brand-text">Prepora</span>
         </Link>
         <nav className="nav-links">
           {links.map(([to, l]) => (
